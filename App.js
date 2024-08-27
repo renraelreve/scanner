@@ -46,7 +46,7 @@ export default function App() {
 
   const handleStartScanning = () => {
     if (!hasPermission) {
-      Alert.alert("No access to camera. Please grant access in your settings.");
+      Alert.alert("No access to camera. Please grant access in your settings!");
       return;
     }
     setIsScanningMode(true);
